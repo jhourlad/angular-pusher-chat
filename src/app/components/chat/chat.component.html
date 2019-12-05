@@ -1,0 +1,19 @@
+<section id="messages" class="px10 pt20">
+  <div class="message-item flex" *ngFor="let message of messages" [ngClass]="{ 'mine' : message.user_id === userId }">
+    <div class="message-ticker left">
+      <i class="fa fa-caret-left"></i>
+    </div>
+    <div class="message-text bg-success light">{{ message.message }}</div>
+    <div class="message-ticker right">
+      <i class="fa fa-caret-right"></i>
+    </div>
+    <div class="message-author px20">{{ message.user_id === userId ? 'You' : message.user.username }}</div>
+  </div>
+</section>
+
+<section id="message-input" class="p10 border-top">
+  <form [formGroup]="chatForm" (ngSubmit)="onSubmit()"  class="flex px10">
+    <input formControlName="message" type="text" class="mr10" placeholder="Start a new message">
+    <button class="btn btn-secondary" name="send">send</button>
+  </form>
+</section>
