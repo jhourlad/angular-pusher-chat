@@ -9,4 +9,4 @@
 - Install dependencies: `npm install`
 - Serve: `ng serve`
 
-(Note: UI does not use any prebuilt UI/UX librarties like Material or Bootstrap in order to demonstrate use of CSS OOP uisng SCSS)
+(Note: UI does not use any prebuilt UI/UX libraries such as Material or Bootstrap in order to demonstrate use of CSS OOP using SCSS)
