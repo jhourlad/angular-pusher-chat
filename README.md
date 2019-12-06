@@ -8,3 +8,5 @@
 - Clone this repository: `git clone git@github.com:jhourlad/ng-pusher-chat.git`
 - Install dependencies: `npm install`
 - Serve: `ng serve`
+
+(Note: UI does not use any prebuilt UI/UX librarties like Material or Bootstrap in order to demonstrate use of CSS OOP uisng SCSS)
