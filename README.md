@@ -1,3 +1,5 @@
+# jhourlad/ng-pusher-chat
+
 ## Requirements
 - Fully-configured Pusher account
 - Angular 8+ and prerequisites
