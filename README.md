@@ -1,4 +1,4 @@
-# jhourlad/ng-pusher-chat
+# Angular + Pusher Chat
 
 ## Requirements
 - Fully-configured Pusher account
